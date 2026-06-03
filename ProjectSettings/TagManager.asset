@@ -44,11 +44,20 @@ TagManager:
   - name: Background
     uniqueID: 346674117
     locked: 0
+  - name: Bricks
+    uniqueID: 2005631829
+    locked: 0
   - name: Ground
     uniqueID: 1044939887
     locked: 0
+  - name: Balcony
+    uniqueID: 1098208555
+    locked: 0
   - name: Player
     uniqueID: 3787012729
+    locked: 0
+  - name: Items
+    uniqueID: 1811418875
     locked: 0
   m_RenderingLayers:
   - Default

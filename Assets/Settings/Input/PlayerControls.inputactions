@@ -16,7 +16,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Jump",
+                    "name": "Throw",
                     "type": "Button",
                     "id": "98285c84-ea2b-4a44-82e8-45b0a982bbd2",
                     "expectedControlType": "",
@@ -88,7 +88,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Jump",
+                    "action": "Throw",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
