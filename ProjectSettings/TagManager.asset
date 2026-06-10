@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Ladder
   layers:
   - Default
   - TransparentFX
@@ -11,7 +12,7 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
+  - Hazard
   - 
   - 
   - 
@@ -52,6 +53,9 @@ TagManager:
     locked: 0
   - name: Balcony
     uniqueID: 1098208555
+    locked: 0
+  - name: Hazard
+    uniqueID: 215755099
     locked: 0
   - name: Player
     uniqueID: 3787012729

@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
         ThrowHat();
     }
 
+
     private void FixedUpdate()
     {
         HandleMovement();
@@ -38,9 +39,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleMovement()
     {
-        float valueX = _moveInput.x * moveSpeed;
-        float valueY = _moveInput.y * moveSpeed;
-        _rb.linearVelocity = new Vector2(valueX, valueY);
+        _rb.linearVelocity = _moveInput * moveSpeed;
     }
 
     private void ThrowHat()
@@ -56,5 +55,7 @@ public class PlayerMovement : MonoBehaviour
         HatProjectile hatScript = hat.GetComponent<HatProjectile>();
         hatScript.Init(transform);
     }
+
+    
 
 }
